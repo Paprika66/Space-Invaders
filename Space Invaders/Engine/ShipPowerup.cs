@@ -17,7 +17,6 @@ namespace Space_Invaders.Engine
         }
         public override void Update(GameTime gameTime, ref List<Sprite> sprites)
         {
-            base.Update(gameTime, ref sprites);
             GettingHit(ref sprites);
             if (!alive)
             {
